@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34490D1C474A00B5006D5AB6 /* Pods_Less_Lost_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A265D9835CE546FF3CE9DF /* Pods_Less_Lost_Demo.framework */; };
+		52037B9121263160001370AE /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52037B9021263160001370AE /* ForgotPasswordViewController.swift */; };
+		5208BBF321231A5500C91B48 /* ReportsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208BBF221231A5500C91B48 /* ReportsTableVC.swift */; };
+		5208BBF621231CA800C91B48 /* ReportsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208BBF521231CA800C91B48 /* ReportsCell.swift */; };
+		522300092126DD1400CAD1C3 /* VerificationCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522300082126DD1400CAD1C3 /* VerificationCodeController.swift */; };
+		5223000B2126EE0E00CAD1C3 /* UserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5223000A2126EE0E00CAD1C3 /* UserNameViewController.swift */; };
+		522DB2E42128712E009A5438 /* TempletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DB2E32128712E009A5438 /* TempletViewController.swift */; };
+		522DB2E62128854D009A5438 /* EmailUserNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DB2E52128854D009A5438 /* EmailUserNameViewController.swift */; };
+		5232B2422115C6DC00783F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232B2412115C6DC00783F27 /* AppDelegate.swift */; };
+		5232B2442115C6DC00783F27 /* CasesVewiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232B2432115C6DC00783F27 /* CasesVewiController.swift */; };
+		5232B2472115C6DC00783F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5232B2452115C6DC00783F27 /* Main.storyboard */; };
+		5232B2492115C6DF00783F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5232B2482115C6DF00783F27 /* Assets.xcassets */; };
+		5232B24C2115C6DF00783F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5232B24A2115C6DF00783F27 /* LaunchScreen.storyboard */; };
+		5232B2562115CA4100783F27 /* SingupViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232B2552115CA4100783F27 /* SingupViewContrller.swift */; };
+		5232B2592115E0DE00783F27 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232B2582115E0DE00783F27 /* LoginViewController.swift */; };
+		523348E321208D5B004F10F6 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523348E221208D5B004F10F6 /* RouteView.swift */; };
+		5245CD8B21200C7500EE9CE1 /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5245CD8A21200C7500EE9CE1 /* MapService.swift */; };
+		524E2BD32116375300A6517D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E2BD22116375300A6517D /* User.swift */; };
+		52515ECF2116CC210073CBCA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52515ECE2116CC210073CBCA /* MapViewController.swift */; };
+		5253A8E22124189100B2EC78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5253A8E12124189000B2EC78 /* GoogleService-Info.plist */; };
+		525616A42135B08800AEB654 /* CountriesTabeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525616A32135B08800AEB654 /* CountriesTabeView.swift */; };
+		525616A72135B58C00AEB654 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525616A62135B58C00AEB654 /* CustomTableViewCell.swift */; };
+		526244FD21188F8800368507 /* TheRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526244FC21188F8800368507 /* TheRootViewController.swift */; };
+		5270BFC421359E7B00FD113F /* CountryPhoneCodeAndName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270BFC321359E7B00FD113F /* CountryPhoneCodeAndName.swift */; };
+		52743D1B21198C1E00DAB951 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52743D1A21198C1E00DAB951 /* CustomCollectionViewCell.swift */; };
+		52743D2321198E3100DAB951 /* UIBezierPath+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52743D1F21198E3000DAB951 /* UIBezierPath+.swift */; };
+		52743D2421198E3100DAB951 /* Coverable+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52743D2021198E3100DAB951 /* Coverable+UIKit.swift */; };
+		52743D2521198E3100DAB951 /* LoadingPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52743D2121198E3100DAB951 /* LoadingPlaceholderView.swift */; };
+		52743D2621198E3100DAB951 /* Coverable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52743D2221198E3100DAB951 /* Coverable.swift */; };
+		52743D2B21199ADA00DAB951 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52743D2A21199ADA00DAB951 /* ReportViewController.swift */; };
+		529CC5B9211736C0008775C5 /* Utiltes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529CC5B8211736C0008775C5 /* Utiltes.swift */; };
+		52B03B372119EBA30056D9EB /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B03B362119EBA30056D9EB /* Report.swift */; };
+		52B1A61F211C1B63009702C5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1A61E211C1B63009702C5 /* Service.swift */; };
+		52BDF13921204FBC0051E11B /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDF13821204FBC0051E11B /* TripView.swift */; };
+		52D2C78B21222980005A4B7B /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D2C78A21222980005A4B7B /* Route.swift */; };
+		52F1622D212888E700651752 /* EmailPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F1622C212888E700651752 /* EmailPasswordViewController.swift */; };
+		52F4E5BD21272D4200336B84 /* CustomSegmentedContrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4E5BC21272D4200336B84 /* CustomSegmentedContrl.swift */; };
+		52FD627A21179B4000D444B5 /* AdminMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD627921179B4000D444B5 /* AdminMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52037B9021263160001370AE /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		5208BBF221231A5500C91B48 /* ReportsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsTableVC.swift; sourceTree = "<group>"; };
+		5208BBF521231CA800C91B48 /* ReportsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsCell.swift; sourceTree = "<group>"; };
+		522300082126DD1400CAD1C3 /* VerificationCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeController.swift; sourceTree = "<group>"; };
+		5223000A2126EE0E00CAD1C3 /* UserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameViewController.swift; sourceTree = "<group>"; };
+		522DB2E32128712E009A5438 /* TempletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempletViewController.swift; sourceTree = "<group>"; };
+		522DB2E52128854D009A5438 /* EmailUserNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailUserNameViewController.swift; sourceTree = "<group>"; };
+		5232B23E2115C6DC00783F27 /* Pilgrimnize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pilgrimnize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5232B2412115C6DC00783F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5232B2432115C6DC00783F27 /* CasesVewiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasesVewiController.swift; sourceTree = "<group>"; };
+		5232B2462115C6DC00783F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5232B2482115C6DF00783F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5232B24B2115C6DF00783F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5232B24D2115C6DF00783F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5232B2552115CA4100783F27 /* SingupViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupViewContrller.swift; sourceTree = "<group>"; };
+		5232B2582115E0DE00783F27 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		523348E221208D5B004F10F6 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		5245CD8A21200C7500EE9CE1 /* MapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
+		524E2BD22116375300A6517D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		52515ECE2116CC210073CBCA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5253A8E12124189000B2EC78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5253A8E3212419EE00B2EC78 /* Less Lost Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Less Lost Demo.entitlements"; sourceTree = "<group>"; };
+		525616A32135B08800AEB654 /* CountriesTabeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTabeView.swift; sourceTree = "<group>"; };
+		525616A62135B58C00AEB654 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		526244FC21188F8800368507 /* TheRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRootViewController.swift; sourceTree = "<group>"; };
+		5270BFC321359E7B00FD113F /* CountryPhoneCodeAndName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPhoneCodeAndName.swift; sourceTree = "<group>"; };
+		52743D1A21198C1E00DAB951 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		52743D1F21198E3000DAB951 /* UIBezierPath+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+.swift"; sourceTree = "<group>"; };
+		52743D2021198E3100DAB951 /* Coverable+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Coverable+UIKit.swift"; sourceTree = "<group>"; };
+		52743D2121198E3100DAB951 /* LoadingPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingPlaceholderView.swift; sourceTree = "<group>"; };
+		52743D2221198E3100DAB951 /* Coverable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coverable.swift; sourceTree = "<group>"; };
+		52743D2A21199ADA00DAB951 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		529CC5B8211736C0008775C5 /* Utiltes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utiltes.swift; sourceTree = "<group>"; };
+		52B03B362119EBA30056D9EB /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		52B1A61E211C1B63009702C5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		52BDF13821204FBC0051E11B /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		52D2C78A21222980005A4B7B /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		52F1622C212888E700651752 /* EmailPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailPasswordViewController.swift; sourceTree = "<group>"; };
+		52F4E5BC21272D4200336B84 /* CustomSegmentedContrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedContrl.swift; sourceTree = "<group>"; };
+		52FD627921179B4000D444B5 /* AdminMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminMapViewController.swift; sourceTree = "<group>"; };
+		73A265D9835CE546FF3CE9DF /* Pods_Less_Lost_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Less_Lost_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C094347C7509D93A6283A900 /* Pods-Less Lost Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Less Lost Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Less Lost Demo/Pods-Less Lost Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F86CE73E01646280F9FEB13D /* Pods-Less Lost Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Less Lost Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Less Lost Demo/Pods-Less Lost Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5232B23B2115C6DC00783F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34490D1C474A00B5006D5AB6 /* Pods_Less_Lost_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400AD670888D8FFAAEA0864E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A265D9835CE546FF3CE9DF /* Pods_Less_Lost_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5208BBF421231C9300C91B48 /* ReportsTable */ = {
+			isa = PBXGroup;
+			children = (
+				5208BBF221231A5500C91B48 /* ReportsTableVC.swift */,
+				5208BBF521231CA800C91B48 /* ReportsCell.swift */,
+			);
+			path = ReportsTable;
+			sourceTree = "<group>";
+		};
+		5223000C2127042000CAD1C3 /* PhoneSignup */ = {
+			isa = PBXGroup;
+			children = (
+				5223000A2126EE0E00CAD1C3 /* UserNameViewController.swift */,
+				522300082126DD1400CAD1C3 /* VerificationCodeController.swift */,
+			);
+			path = PhoneSignup;
+			sourceTree = "<group>";
+		};
+		5232B2352115C6DC00783F27 = {
+			isa = PBXGroup;
+			children = (
+				5232B2402115C6DC00783F27 /* Less Lost Demo */,
+				5232B23F2115C6DC00783F27 /* Products */,
+				CADDC262E9B9A5398091BE50 /* Pods */,
+				400AD670888D8FFAAEA0864E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5232B23F2115C6DC00783F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5232B23E2115C6DC00783F27 /* Pilgrimnize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5232B2402115C6DC00783F27 /* Less Lost Demo */ = {
+			isa = PBXGroup;
+			children = (
+				525616A52135B55B00AEB654 /* Countries Codes */,
+				5253A8E3212419EE00B2EC78 /* Less Lost Demo.entitlements */,
+				526244F921188C8800368507 /* V2 */,
+				5232B2412115C6DC00783F27 /* AppDelegate.swift */,
+				526244FC21188F8800368507 /* TheRootViewController.swift */,
+				5208BBF421231C9300C91B48 /* ReportsTable */,
+				52743D2A21199ADA00DAB951 /* ReportViewController.swift */,
+				52B1A61E211C1B63009702C5 /* Service.swift */,
+				52743D2921199AB600DAB951 /* View */,
+				5232B2432115C6DC00783F27 /* CasesVewiController.swift */,
+				529CC5B521173682008775C5 /* Utiltes */,
+				52515ED02116CC260073CBCA /* Map */,
+				524A50342116E8BF006F3670 /* Modle */,
+				5232B2572115E0AF00783F27 /* UserLogin & Singup */,
+				5232B2452115C6DC00783F27 /* Main.storyboard */,
+				5232B2482115C6DF00783F27 /* Assets.xcassets */,
+				5232B24A2115C6DF00783F27 /* LaunchScreen.storyboard */,
+				5253A8E12124189000B2EC78 /* GoogleService-Info.plist */,
+				5232B24D2115C6DF00783F27 /* Info.plist */,
+			);
+			path = "Less Lost Demo";
+			sourceTree = "<group>";
+		};
+		5232B2572115E0AF00783F27 /* UserLogin & Singup */ = {
+			isa = PBXGroup;
+			children = (
+				52F1622E21288C1500651752 /* Email SingUp */,
+				5223000C2127042000CAD1C3 /* PhoneSignup */,
+			);
+			path = "UserLogin & Singup";
+			sourceTree = "<group>";
+		};
+		524A50342116E8BF006F3670 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				52D2C78A21222980005A4B7B /* Route.swift */,
+				524E2BD22116375300A6517D /* User.swift */,
+				52B03B362119EBA30056D9EB /* Report.swift */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		52515ED02116CC260073CBCA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				52515ECE2116CC210073CBCA /* MapViewController.swift */,
+				5245CD8A21200C7500EE9CE1 /* MapService.swift */,
+				52FD627921179B4000D444B5 /* AdminMapViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		525616A52135B55B00AEB654 /* Countries Codes */ = {
+			isa = PBXGroup;
+			children = (
+				5270BFC321359E7B00FD113F /* CountryPhoneCodeAndName.swift */,
+				525616A32135B08800AEB654 /* CountriesTabeView.swift */,
+				525616A62135B58C00AEB654 /* CustomTableViewCell.swift */,
+			);
+			path = "Countries Codes";
+			sourceTree = "<group>";
+		};
+		526244F921188C8800368507 /* V2 */ = {
+			isa = PBXGroup;
+			children = (
+				52743D1E21198E2700DAB951 /* LoadingPlaceholderView */,
+			);
+			path = V2;
+			sourceTree = "<group>";
+		};
+		52743D1E21198E2700DAB951 /* LoadingPlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				52743D2221198E3100DAB951 /* Coverable.swift */,
+				52743D2021198E3100DAB951 /* Coverable+UIKit.swift */,
+				52743D2121198E3100DAB951 /* LoadingPlaceholderView.swift */,
+				52743D1F21198E3000DAB951 /* UIBezierPath+.swift */,
+			);
+			path = LoadingPlaceholderView;
+			sourceTree = "<group>";
+		};
+		52743D2921199AB600DAB951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52BDF13821204FBC0051E11B /* TripView.swift */,
+				523348E221208D5B004F10F6 /* RouteView.swift */,
+				52743D1A21198C1E00DAB951 /* CustomCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		529CC5B521173682008775C5 /* Utiltes */ = {
+			isa = PBXGroup;
+			children = (
+				529CC5B8211736C0008775C5 /* Utiltes.swift */,
+			);
+			path = Utiltes;
+			sourceTree = "<group>";
+		};
+		52F1622E21288C1500651752 /* Email SingUp */ = {
+			isa = PBXGroup;
+			children = (
+				52F4E5BC21272D4200336B84 /* CustomSegmentedContrl.swift */,
+				522DB2E32128712E009A5438 /* TempletViewController.swift */,
+				522DB2E52128854D009A5438 /* EmailUserNameViewController.swift */,
+				52F1622C212888E700651752 /* EmailPasswordViewController.swift */,
+				5232B2552115CA4100783F27 /* SingupViewContrller.swift */,
+				52037B9021263160001370AE /* ForgotPasswordViewController.swift */,
+				5232B2582115E0DE00783F27 /* LoginViewController.swift */,
+			);
+			path = "Email SingUp";
+			sourceTree = "<group>";
+		};
+		CADDC262E9B9A5398091BE50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F86CE73E01646280F9FEB13D /* Pods-Less Lost Demo.debug.xcconfig */,
+				C094347C7509D93A6283A900 /* Pods-Less Lost Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5232B23D2115C6DC00783F27 /* Less Lost Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5232B2502115C6DF00783F27 /* Build configuration list for PBXNativeTarget "Less Lost Demo" */;
+			buildPhases = (
+				FE63C2B448685D35C5202245 /* [CP] Check Pods Manifest.lock */,
+				5232B23A2115C6DC00783F27 /* Sources */,
+				5232B23B2115C6DC00783F27 /* Frameworks */,
+				5232B23C2115C6DC00783F27 /* Resources */,
+				2CB5B7717A5181E24EB11910 /* [CP] Embed Pods Frameworks */,
+				FB56B720BA947FF22FC3647C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Less Lost Demo";
+			productName = "Less Lost Demo";
+			productReference = 5232B23E2115C6DC00783F27 /* Pilgrimnize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5232B2362115C6DC00783F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = QahtanLab;
+				TargetAttributes = {
+					5232B23D2115C6DC00783F27 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5232B2392115C6DC00783F27 /* Build configuration list for PBXProject "Less Lost Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5232B2352115C6DC00783F27;
+			productRefGroup = 5232B23F2115C6DC00783F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5232B23D2115C6DC00783F27 /* Less Lost Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5232B23C2115C6DC00783F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5232B24C2115C6DF00783F27 /* LaunchScreen.storyboard in Resources */,
+				5232B2492115C6DF00783F27 /* Assets.xcassets in Resources */,
+				5253A8E22124189100B2EC78 /* GoogleService-Info.plist in Resources */,
+				5232B2472115C6DC00783F27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB5B7717A5181E24EB11910 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Less Lost Demo/Pods-Less Lost Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Less Lost Demo/Pods-Less Lost Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB56B720BA947FF22FC3647C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Less Lost Demo/Pods-Less Lost Demo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Less Lost Demo/Pods-Less Lost Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE63C2B448685D35C5202245 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Less Lost Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5232B23A2115C6DC00783F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523348E321208D5B004F10F6 /* RouteView.swift in Sources */,
+				5232B2442115C6DC00783F27 /* CasesVewiController.swift in Sources */,
+				5270BFC421359E7B00FD113F /* CountryPhoneCodeAndName.swift in Sources */,
+				52F1622D212888E700651752 /* EmailPasswordViewController.swift in Sources */,
+				52F4E5BD21272D4200336B84 /* CustomSegmentedContrl.swift in Sources */,
+				525616A42135B08800AEB654 /* CountriesTabeView.swift in Sources */,
+				52743D2421198E3100DAB951 /* Coverable+UIKit.swift in Sources */,
+				52743D2B21199ADA00DAB951 /* ReportViewController.swift in Sources */,
+				522DB2E62128854D009A5438 /* EmailUserNameViewController.swift in Sources */,
+				52743D2521198E3100DAB951 /* LoadingPlaceholderView.swift in Sources */,
+				529CC5B9211736C0008775C5 /* Utiltes.swift in Sources */,
+				5208BBF321231A5500C91B48 /* ReportsTableVC.swift in Sources */,
+				52BDF13921204FBC0051E11B /* TripView.swift in Sources */,
+				52037B9121263160001370AE /* ForgotPasswordViewController.swift in Sources */,
+				5232B2562115CA4100783F27 /* SingupViewContrller.swift in Sources */,
+				52D2C78B21222980005A4B7B /* Route.swift in Sources */,
+				522300092126DD1400CAD1C3 /* VerificationCodeController.swift in Sources */,
+				52743D2321198E3100DAB951 /* UIBezierPath+.swift in Sources */,
+				5232B2592115E0DE00783F27 /* LoginViewController.swift in Sources */,
+				5223000B2126EE0E00CAD1C3 /* UserNameViewController.swift in Sources */,
+				524E2BD32116375300A6517D /* User.swift in Sources */,
+				5245CD8B21200C7500EE9CE1 /* MapService.swift in Sources */,
+				52B1A61F211C1B63009702C5 /* Service.swift in Sources */,
+				52B03B372119EBA30056D9EB /* Report.swift in Sources */,
+				525616A72135B58C00AEB654 /* CustomTableViewCell.swift in Sources */,
+				52743D2621198E3100DAB951 /* Coverable.swift in Sources */,
+				5208BBF621231CA800C91B48 /* ReportsCell.swift in Sources */,
+				5232B2422115C6DC00783F27 /* AppDelegate.swift in Sources */,
+				52743D1B21198C1E00DAB951 /* CustomCollectionViewCell.swift in Sources */,
+				522DB2E42128712E009A5438 /* TempletViewController.swift in Sources */,
+				52FD627A21179B4000D444B5 /* AdminMapViewController.swift in Sources */,
+				526244FD21188F8800368507 /* TheRootViewController.swift in Sources */,
+				52515ECF2116CC210073CBCA /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5232B2452115C6DC00783F27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5232B2462115C6DC00783F27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5232B24A2115C6DF00783F27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5232B24B2115C6DF00783F27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5232B24E2115C6DF00783F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5232B24F2115C6DF00783F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5232B2512115C6DF00783F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86CE73E01646280F9FEB13D /* Pods-Less Lost Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Less Lost Demo/Less Lost Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32922A2567;
+				INFOPLIST_FILE = "Less Lost Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyopagroup.LessLostDemo;
+				PRODUCT_NAME = Pilgrimnize;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5232B2522115C6DF00783F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C094347C7509D93A6283A900 /* Pods-Less Lost Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Less Lost Demo/Less Lost Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32922A2567;
+				INFOPLIST_FILE = "Less Lost Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyopagroup.LessLostDemo;
+				PRODUCT_NAME = Pilgrimnize;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5232B2392115C6DC00783F27 /* Build configuration list for PBXProject "Less Lost Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5232B24E2115C6DF00783F27 /* Debug */,
+				5232B24F2115C6DF00783F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5232B2502115C6DF00783F27 /* Build configuration list for PBXNativeTarget "Less Lost Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5232B2512115C6DF00783F27 /* Debug */,
+				5232B2522115C6DF00783F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5232B2362115C6DC00783F27 /* Project object */;
+}
